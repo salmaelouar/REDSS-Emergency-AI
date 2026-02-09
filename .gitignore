@@ -23,7 +23,4 @@ build/
 # *.pdf
 
 # Large Media Files (audio only - videos handled by Git LFS)
-data/audio/
-*.m4a
-*.wav
-*.mp3
+
