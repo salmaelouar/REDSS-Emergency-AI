@@ -20,7 +20,7 @@ build/
 *.aux
 *.out
 *.toc
-*.pdf
+# *.pdf
 
 # Large Media Files (audio only - videos handled by Git LFS)
 data/audio/
