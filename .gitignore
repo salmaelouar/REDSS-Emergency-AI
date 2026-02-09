@@ -1,0 +1,33 @@
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Node.js (falls vorhanden im frontend)
+node_modules/
+dist/
+build/
+.next/
+
+# LaTeX logs (falls doch welche auftauchen)
+*.log
+*.aux
+*.out
+*.toc
+*.pdf
+
+# Large Media Files
+videos/
+data/audio/
+*.mov
+*.MOV
+*.mp4
+*.m4a
+*.wav
+*.mp3
