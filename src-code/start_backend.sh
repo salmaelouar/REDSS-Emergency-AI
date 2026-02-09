@@ -9,7 +9,13 @@ echo -e "${BLUE}🚀 Starting Emergency Call System Backend...${NC}"
 echo ""
 
 # Gehe zum Projekt-Ordner
-cd "/Users/salmaelouarghielmaizi/Desktop/Studium IF/Semester7/realtime-emergency-system"
+cd "$(dirname "$0")"
+
+# Check if venv exists
+if [ ! -d "venv" ]; then
+    echo "Creating virtual environment..."
+    python3 -m venv venv
+fi
 
 # Aktiviere venv automatisch
 echo -e "${GREEN}✓ Activating virtual environment...${NC}"

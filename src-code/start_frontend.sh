@@ -8,7 +8,7 @@ echo -e "${BLUE}🎨 Starting Frontend...${NC}"
 echo ""
 
 # Gehe zum Frontend-Ordner
-cd "/Users/salmaelouarghielmaizi/Desktop/Studium IF/Semester7/realtime-emergency-system/frontend"
+cd "$(dirname "$0")/frontend"
 
 # Prüfe ob node_modules existiert
 if [ ! -d "node_modules" ]; then
