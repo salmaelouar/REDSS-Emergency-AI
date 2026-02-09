@@ -10,7 +10,7 @@ venv/
 .env
 
 # Node.js (falls vorhanden im frontend)
-node_modules/
+**/node_modules/
 dist/
 build/
 .next/
@@ -22,12 +22,8 @@ build/
 *.toc
 *.pdf
 
-# Large Media Files
-videos/
+# Large Media Files (audio only - videos handled by Git LFS)
 data/audio/
-*.mov
-*.MOV
-*.mp4
 *.m4a
 *.wav
 *.mp3
