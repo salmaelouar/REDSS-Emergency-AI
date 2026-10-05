@@ -8,17 +8,17 @@ The system leverages state-of-the-art NLP and machine learning to assist dispatc
 
 ## Key Capabilities
 
-### 🚑 Emergency Triage & Documentation
+###  Emergency Triage & Documentation
 - **Automated Transcription**: Uses OpenAI's Whisper for high-accuracy real-time transcription of emergency dialogues.
 - **SOAP Extraction**: Automatically generates **Subjective, Objective, Assessment, and Plan** structured notes from raw transcripts.
 - **Hybrid Urgency Classification**: Implements a hybrid engine that combines evidence-based medical rules with AI contextual analysis to assign **ESI (Emergency Severity Index)** levels.
 
-### 🧠 Linguistic & Cognitive Analysis
+### Linguistic & Cognitive Analysis
 - **Advanced Language Markers**: Analyzes speech fluency, cognitive markers, and semantic coherence to identify potential health risks.
 - **Dementia Screening**: Evaluates speech rate, pause duration, filler word ratios, and lexical diversity (TTR, Guiraud’s Index) to provide a preliminary **cognitive risk assessment**.
 - **Conversational Quality**: Scores calls based on Grice’s Maxims (Quantity, Quality, Relation, Manner) to assess communication effectiveness.
-
-### 📊 Monitoring & Dashboard
+  
+###  Monitoring & Dashboard
 - **Situational Awareness**: A React-based frontend providing a real-time overview of current calls and their severity.
 - **Patient Tracking**: Aggregates history and metrics to visualize the "Patient Journey" and long-term health trends.
 
